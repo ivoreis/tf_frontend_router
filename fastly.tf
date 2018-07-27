@@ -1,5 +1,5 @@
 module "fastly" {
-  source = "github.com/mergermarket/tf_fastly_frontend?ref=logentries-to-datadog"
+  source = "github.com/mergermarket/tf_fastly_frontend?ref=add-syslog-to-datadog"
 
   domain_name                 = "${var.fastly_domain}"
   bare_redirect_domain_name   = "${var.bare_redirect_domain_name}"
